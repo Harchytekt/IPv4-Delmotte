@@ -1,0 +1,353 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {320, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "font_size" : 20,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "4FBA97F4-9B10-4FE9-944D-B83CE8B24C71",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "IPv4- Méthode Delmotte",
+          "name" : "title",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 51}, {105, 37}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "73CC8FAF-A2DB-473A-B01B-FE02EAEAA81D",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Adresse IP :",
+          "name" : "label1",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{108, 51}, {206, 37}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "51FE9A90-3D6B-46BE-BFC5-6882122BA351",
+          "font_size" : 17,
+          "frame" : "{{60, 224}, {200, 32}}",
+          "secure" : false,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "placeholder" : "192.168.42.12",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "inputField",
+          "flex" : "W"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 96}, {81, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "074287DA-389E-4BE4-ACE6-0E45D9E46004",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Masque :",
+          "name" : "label2",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{119, 96}, {186, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "595A93A4-A53F-4DC9-BE1C-E7B08E9FB92A",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "255.255.255.0 (\/24)",
+          "name" : "mask_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{57, 136}, {200, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "uuid" : "E8B51D41-DFDF-4F48-A35E-CDE00ADB12DB",
+          "frame" : "{{60, 223}, {200, 34}}",
+          "value" : 0.5,
+          "class" : "Slider",
+          "name" : "slider",
+          "flex" : "W"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 222}, {81, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label4",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "2A4A977D-B478-4C08-A1BF-E3BDD438B465",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Réseau :",
+          "font_size" : 18,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{152, 222}, {162, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "ar_label",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "2177D436-CB68-4DB7-AC12-40519224C1BC",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "192.168.42.0",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 262}, {138, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label6",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "39D6B0F1-6870-4839-95D4-F553A63F4D06",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Réseau suivant :",
+          "font_size" : 18,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{152, 262}, {162, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "ars_label",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A84B3F0A-0B3F-4532-8DE4-B1316C20A200",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "192.168.43.0",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 302}, {105, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label8",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "2E14C861-BA91-41C0-A919-02CE10CD4A15",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Broadcast :",
+          "font_size" : 18,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{152, 302}, {162, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "bc_label",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "137A7B36-BC33-4EC0-8AC3-8C69DCF0A95B",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "192.168.42.255",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 350}, {308, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "label10",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "5B856DCE-CF5E-40A3-8755-7F8D87125258",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Plage :",
+          "font_size" : 18,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 390}, {138, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "name" : "scope_label1",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "EB362016-EB17-4C79-B745-7B6D74CB8897",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "192.168.42.1",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 430}, {194, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "EA2F7EFE-41AB-47EB-87B2-8539E25E87F8",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Nombre d’hôtes réels :",
+          "name" : "label14",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{208, 430}, {106, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "665F0EF5-0838-444A-A3BF-6DDC60412AAB",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "254",
+          "name" : "hosts_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{143, 390}, {26, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "C465289D-D40F-4013-99AD-1B41ABDE4BB1",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "↔︎",
+          "name" : "label3",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{170, 390}, {144, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "04E4E443-E0E2-4FD1-953F-97A0E9F06FA5",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "192.168.42.254",
+          "name" : "scope_label2",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "name" : "",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
