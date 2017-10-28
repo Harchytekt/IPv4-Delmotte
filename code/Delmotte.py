@@ -5,6 +5,8 @@ from Mask import *
 v = ui.load_view('Delmotte')
 myIPAddress = Ip('192.168.42.12')
 myMask = Mask('24')
+fr = ['IPv4- Méthode Delmotte', 'Adresse IP :', 'Masque :', 'Réseau :', 'Réseau suivant :', 'Broadcast :', 'Plage :', 'Nombre d\'hôtes réels :']
+en = ['IPv4- Delmotte’s method', 'IP address:', 'Mask:', 'Network:', 'Next network:', 'Broadcast:', 'Scope:', 'Number of real hosts:']
 
 
 def display_infos():
@@ -53,6 +55,17 @@ def slider_action(sender):
 	display_infos()
 
 
+def langChoice_action(sender):
+	"""
+	Gets the chosen language for the GUI.
+	Calls the function to set the language.
+	"""
+	if sender.selected_index == 0:
+		setLang(fr)
+	else:
+		setLang(en)
+
+
 def isAnAddress(ip):
 	"""
 	Verifies if the given IPv4 address has the good format.
@@ -66,6 +79,20 @@ def isAnAddress(ip):
 			if not item.isdecimal():
 				return False
 	return True
+
+
+def setLang(dic):
+	"""
+	Sets the GUI to the chosen language.
+	"""
+	v['title'].text = dic[0]
+	v['label1'].text = dic[1]
+	v['label2'].text = dic[2]
+	v['label3'].text = dic[3]
+	v['label4'].text = dic[4]
+	v['label5'].text = dic[5]
+	v['label6'].text = dic[6]
+	v['label7'].text = dic[7]
 
 
 def cidrToDec(cidr):
@@ -187,6 +214,8 @@ input.action = inputField_action
 slider = v['slider']
 slider.continuous = True
 slider.action = slider_action
+lang = v['langChoice']
+lang.action = langChoice_action
 
 v.present('sheet')
 

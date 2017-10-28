@@ -25,7 +25,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{6, 51}, {105, 37}}",
+        "frame" : "{{6, 95}, {105, 37}}",
         "class" : "Label",
         "attributes" : {
           "flex" : "",
@@ -44,7 +44,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{108, 51}, {206, 37}}",
+        "frame" : "{{108, 95}, {206, 37}}",
         "class" : "TextField",
         "attributes" : {
           "uuid" : "51FE9A90-3D6B-46BE-BFC5-6882122BA351",
@@ -60,13 +60,13 @@
           "name" : "inputField",
           "flex" : "W"
         },
-        "selected" : true
+        "selected" : false
       },
       {
         "nodes" : [
 
         ],
-        "frame" : "{{6, 96}, {81, 32}}",
+        "frame" : "{{6, 140}, {81, 32}}",
         "class" : "Label",
         "attributes" : {
           "font_size" : 18,
@@ -84,7 +84,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{119, 96}, {186, 32}}",
+        "frame" : "{{128, 140}, {186, 32}}",
         "class" : "Label",
         "attributes" : {
           "flex" : "W",
@@ -103,7 +103,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{57, 136}, {200, 34}}",
+        "frame" : "{{55, 180}, {200, 34}}",
         "class" : "Slider",
         "attributes" : {
           "uuid" : "E8B51D41-DFDF-4F48-A35E-CDE00ADB12DB",
@@ -122,7 +122,7 @@
         "frame" : "{{6, 222}, {81, 32}}",
         "class" : "Label",
         "attributes" : {
-          "name" : "label4",
+          "name" : "label3",
           "frame" : "{{85, 224}, {150, 32}}",
           "uuid" : "2A4A977D-B478-4C08-A1BF-E3BDD438B465",
           "class" : "Label",
@@ -159,7 +159,7 @@
         "frame" : "{{6, 262}, {138, 32}}",
         "class" : "Label",
         "attributes" : {
-          "name" : "label6",
+          "name" : "label4",
           "frame" : "{{85, 224}, {150, 32}}",
           "uuid" : "39D6B0F1-6870-4839-95D4-F553A63F4D06",
           "class" : "Label",
@@ -196,7 +196,7 @@
         "frame" : "{{6, 302}, {105, 32}}",
         "class" : "Label",
         "attributes" : {
-          "name" : "label8",
+          "name" : "label5",
           "frame" : "{{85, 224}, {150, 32}}",
           "uuid" : "2E14C861-BA91-41C0-A919-02CE10CD4A15",
           "class" : "Label",
@@ -234,7 +234,7 @@
         "class" : "Label",
         "attributes" : {
           "flex" : "W",
-          "name" : "label10",
+          "name" : "label6",
           "frame" : "{{85, 224}, {150, 32}}",
           "uuid" : "5B856DCE-CF5E-40A3-8755-7F8D87125258",
           "class" : "Label",
@@ -277,7 +277,7 @@
           "class" : "Label",
           "alignment" : "left",
           "text" : "Nombre d’hôtes réels :",
-          "name" : "label14",
+          "name" : "label7",
           "font_name" : "<System-Bold>"
         },
         "selected" : false
@@ -314,10 +314,10 @@
           "class" : "Label",
           "alignment" : "center",
           "text" : "↔︎",
-          "name" : "label3",
+          "name" : "label8",
           "font_name" : "<System>"
         },
-        "selected" : false
+        "selected" : true
       },
       {
         "nodes" : [
@@ -336,16 +336,32 @@
           "font_name" : "<System>"
         },
         "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{98, 40}, {120, 29}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "class" : "SegmentedControl",
+          "frame" : "{{100, 226}, {120, 29}}",
+          "uuid" : "4A3761EA-3024-4CBA-A78F-A2E1F1B951AC",
+          "segments" : "Français|English",
+          "name" : "langChoice",
+          "flex" : "LR"
+        },
+        "selected" : false
       }
     ],
     "frame" : "{{0, 0}, {320, 480}}",
     "class" : "View",
     "attributes" : {
-      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
-      "enabled" : true,
-      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "name" : "",
+      "enabled" : true,
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "flex" : ""
     },
     "selected" : false
